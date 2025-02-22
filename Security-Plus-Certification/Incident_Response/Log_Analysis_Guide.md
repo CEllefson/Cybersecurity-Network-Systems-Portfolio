@@ -1,1 +1,9 @@
+NIST SP 800-92 is the foundational publication on Cybersecurity Log Management Planning and discusses log analysis at points during the publication. Log analysis is “studying log entries of interest or suppress log entries of insignificant events”. 
 
+NIST SP 800-92 is the foundational publication on Cybersecurity Log Management Planning and discusses log analysis at points during the publication. Log analysis is “studying log entries of interest or suppress log entries of insignificant events”. 
+
+When going through log analysis, it is important to practice the following due to the volume of data: Prioritize log management appropriately throughout organization, Establish policies and procedures for log management, create and maintain a secure log management infrastructure, and provide proper training for all staff with log management. 
+
+These logs usually consist of access logs, error logs, event logs which will all give certain flags that need to be reviewed. Luckily most employers will provide a tool to help parse through the data such as ELK Stack and Splunk and provide training for those. They may provide different tools but the method for them is essentially the same. Some techniques for log analysis are finding correlations between different logs to find a pattern that may emerge during attacks to help identify how these attacks occur.These logs will contain plenty of data related to the IP addresses used, what they were doing, how long they were do it, response codes, user agents, and other information.
+
+This follows into the next step of pattern recognition, which is where unusual spikes in traffic or other metrics that do not conform to normal patterns happen and need to be monitored. Some log monitoring tools are starting to use AI which has become a massive helper with what most consider monotonous never ending work. This helps prioritize logs so that administrators can review the important ones from the insignificant data. 
