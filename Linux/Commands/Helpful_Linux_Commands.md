@@ -98,7 +98,7 @@ touch: used for changing file timestamps; last time the file was accessed, modif
 
 ln: creates link between files. These are either hard links or soft links. "ln -s file link" is the correct syntax for creating a symbolic or soft link 
 
-chmod: change permissions\
+### chmod: change permissions\
 Using the characters u(for user owner), g(for group owner), o(others), and a(all, users/owners/others) at the start of the chmod command to indicate which permissions group they are being changed to followed by +(add), -(remove), or =(equals), followed by the type permissions r(read), w(write), or x(execute) permissions.
 
 
